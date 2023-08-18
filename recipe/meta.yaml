@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("azure-storage-queues-cpp", max_pin="x") }}
 
@@ -22,8 +22,7 @@ requirements:
     - ninja
   host:
     - azure-core-cpp
-    # requires azure-storage-common-cpp >=12.2.3
-    - azure-storage-common-cpp
+    - azure-storage-common-cpp >=12.2.3
 
 test:
   requires:
