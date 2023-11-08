@@ -1,5 +1,5 @@
-{% set version = "12.1.0" %}
-{% set sha256 = "c55057ba071fe0d46abfb4776b9242328571fccaf7aa020584880e577daaed40" %}
+{% set version = "12.2.0" %}
+{% set sha256 = "9c17b576f08da114795d199fb579906e5cd6d16c7452a1783e1c1b733a9ab84d" %}
 
 package:
   name: azure-storage-queues-cpp
@@ -22,7 +22,7 @@ requirements:
     - ninja
   host:
     - azure-core-cpp
-    - azure-storage-common-cpp >=12.4.0
+    - azure-storage-common-cpp >=12.5.0
 
 test:
   requires:
