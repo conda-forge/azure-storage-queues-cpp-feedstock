@@ -22,7 +22,7 @@ requirements:
     - ninja
   host:
     - azure-core-cpp
-    - azure-storage-common-cpp >=12.4.0
+    - azure-storage-common-cpp >=12.5.0
 
 test:
   requires:
