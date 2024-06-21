@@ -1,3 +1,7 @@
+azure_core_cpp:
+- 1.12.0
+azure_storage_common_cpp:
+- 12.6.0
 cdt_name:
 - cos6
 channel_sources:
