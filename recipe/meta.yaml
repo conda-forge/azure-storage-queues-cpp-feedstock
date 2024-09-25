@@ -1,5 +1,5 @@
-{% set version = "12.3.0" %}
-{% set sha256 = "f2974a86d7bc4dbe1d83e4c62a748266aefb12197f9f8136df549b81fe38240b" %}
+{% set version = "12.4.0" %}
+{% set sha256 = "7ff7aca08a0058015f0e301cbd1cb641cd9f405f1a63aba6c12e62a292f8431c" %}
 
 package:
   name: azure-storage-queues-cpp
