@@ -5,7 +5,7 @@ MACOSX_SDK_VERSION:
 azure_core_cpp:
 - 1.13.0
 azure_storage_common_cpp:
-- 12.7.0
+- 12.8.0
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -17,7 +17,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '16'
+- '17'
 macos_machine:
 - arm64-apple-darwin20.0.0
 target_platform:
