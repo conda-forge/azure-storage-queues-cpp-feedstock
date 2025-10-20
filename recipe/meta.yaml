@@ -1,5 +1,5 @@
-{% set version = "12.4.0" %}
-{% set sha256 = "7ff7aca08a0058015f0e301cbd1cb641cd9f405f1a63aba6c12e62a292f8431c" %}
+{% set version = "12.5.0" %}
+{% set sha256 = "3f49b880786d438f9f6d39930317a9ee6b39305c8b7cd48a470bb668801a0b36" %}
 
 package:
   name: azure-storage-queues-cpp
@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   run_exports:
     - {{ pin_subpackage("azure-storage-queues-cpp", max_pin="x.x.x") }}
 
